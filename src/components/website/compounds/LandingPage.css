@@ -1,0 +1,55 @@
+body{
+    background-color: #1D191B;
+}
+
+#landing-page{
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-image: url('../../../images/girl-smilling.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 0% 18%;
+}
+
+#landing-page-container{
+    width: 80vw; 
+    margin: 0 auto; 
+    height: 100vh;
+}
+
+#welcome-note{
+    height:55vh; 
+    display:flex; 
+    flex-direction:column;
+    justify-content:center;
+}
+
+#landing-page h1{
+    color:#fff;
+    font-weight: 400;
+    font-size: 2em;
+    margin-bottom: 0.5rem;
+}
+
+#landing-page p{
+    color:#fff;
+    font-weight: 200;
+    font-size: 1em;
+    margin-bottom: 3rem;
+}
+
+
+@media only screen and (max-width:800px) {
+    #landing-page {
+      background-image: none;
+    }
+}
+
+
+
+
+
+
+

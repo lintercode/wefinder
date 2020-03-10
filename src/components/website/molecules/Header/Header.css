@@ -1,0 +1,32 @@
+#app-header{
+    display: flex;
+    padding: 3em 0em;
+    justify-content: space-between;
+}
+
+#brand-logo{
+    color:#899A82;
+}
+
+#brand-name{
+    color:#fff;
+    margin-left:1em;
+}
+
+#app-header nav ul{
+    display:flex;
+    list-style-type: none;
+    position: absolute;
+    left: 40%;
+}
+
+#app-header nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding:0.5em;
+    opacity: 1;
+}
+
+#app-header nav ul li a:hover{
+    opacity: 0.5;
+}

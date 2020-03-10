@@ -1,0 +1,17 @@
+#bubble{
+    /* border-radius: 50%; */
+    position: absolute;
+    z-index: -1;
+    transform: translate();
+    overflow: hidden;
+}
+
+.offset:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color:#899a824f;
+    transform: translate(-40%,40%);
+}
